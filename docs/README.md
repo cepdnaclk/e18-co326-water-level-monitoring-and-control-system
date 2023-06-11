@@ -9,32 +9,38 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Water Level Monitoring and Control System
 
 ---
 
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
 
-![Sample Image](./images/sample.png)
+![Sample Image](https://qph.cf2.quoracdn.net/main-qimg-ff3d47e6daf0b6d6d20907a819379b19-pjlq)
 
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  e18030, Aththanayake A.M.S., [email](mailto:e18030@eng.pdn.ac.lk)
+-  e18282, Ranasinghe R.A.N.S., [email](mailto:e18282@eng.pdn.ac.lk)
+-  e18283, Ranasinghe R.D.J.M., [email](mailto:e18283@eng.pdn.ac.lk)
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Other Sub Topics](#other-sub-topics)
+2. [Functionality](#functionality)
 3. [Links](#links)
 
 ---
 
 ## Introduction
 
- description of the real world problem and solution, impact
+We all have a water tank in our residance. But those are not located in the eye level and it is not easy to maintain the water level except guessing daily usage and keep filling the tank regullarly. Since this is a repetitive process, we can automate this. It is going to be more efficient and there is no need to keep tracking when you have to turn on the water pump and when you have to turn off the water pump. 
 
-## Other Sub Topics
+## Functionality
+
+- Detecting the water level
+- Identify the water level is low
+- Turn on the water pump and refill
+- Turn off the water pump automatically
+- Indicated the water level using LEDs
+- It is possible to change between the automated and manual system easily
 
 .....
 
