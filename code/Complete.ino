@@ -1,7 +1,9 @@
 const int trigPin = D5; 
 const int echoPin = D6; 
 const int relayInput = D4; // the input to the relay pin
-
+const int fullIndicator = D3;
+const int midIndicator = D2;
+const int lowIndicator = D1;
 
 long duration;
 int distance;
@@ -28,6 +30,18 @@ duration = pulseIn(echoPin, HIGH);
 
 // Calculating the distance
 distance= duration*0.034/2;
+
+//
+if(distance >= 3 && distance < 5){
+  //full
+  digitalWrite(fullIndicator, HIGH); 
+}else if(distance >=5 && distance < 6){
+  //mid
+  digitalWrite(midIndicator, HIGH); 
+}else if(distance >=6 && distance < 7){
+  //low
+  digitalWrite(lowIndicator, HIGH); 
+}
 
 if (distance <= 3) {
   digitalWrite(relayInput, HIGH); // turn relay off
