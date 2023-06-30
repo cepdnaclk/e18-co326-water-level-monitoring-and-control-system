@@ -1,9 +1,9 @@
-const int trigPin = D5; 
-const int echoPin = D6; 
-const int relayInput = D4; // the input to the relay pin
-const int fullIndicator = D3;
-const int midIndicator = D2;
-const int lowIndicator = D1;
+const int trigPin = 14; 
+const int echoPin = 12; 
+const int relayInput = 2; // the input to the relay pin
+const int fullIndicator = 6;
+const int midIndicator = 5;
+const int lowIndicator = 4;
 
 long duration;
 int distance;
